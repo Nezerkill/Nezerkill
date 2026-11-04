@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Nezerkill: NixOS, Hyprland, Lua, QML и AI-агенты">
+  <title>Nezerkill</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1223"/>
+      <stop offset="1" stop-color="#090D19"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 40) rotate(90) scale(300)">
+      <stop stop-color="#CA9EE6" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#CA9EE6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 300) rotate(-90) scale(320)">
+      <stop stop-color="#8CAAEE" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#8CAAEE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="72" y1="130" x2="600" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5BAFF"/>
+      <stop offset="1" stop-color="#8CAAEE"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect width="1200" height="320" rx="28"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glowA)"/>
+    <rect width="1200" height="320" fill="url(#glowB)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="27.5" fill="none" stroke="#73798C" stroke-opacity=".28"/>
+  <text x="72" y="104" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" fill="#81C8BE">nezerkill@linux ~ % whoami</text>
+  <text x="70" y="182" font-family="'Manrope','Segoe UI',system-ui,-apple-system,sans-serif" font-size="76" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Nezerkill</text>
+  <text x="74" y="228" font-family="'Manrope','Segoe UI',system-ui,-apple-system,sans-serif" font-size="21" font-weight="500" fill="#AAB1D3">NixOS · Hyprland · Lua и QML · AI-агенты</text>
+  <rect x="748" y="60" width="380" height="208" rx="20" fill="#1B1F30" fill-opacity=".82" stroke="#73798C" stroke-opacity=".2"/>
+  <circle cx="772" cy="86" r="5" fill="#CA9EE6"/>
+  <circle cx="790" cy="86" r="5" fill="#8CAAEE"/>
+  <circle cx="808" cy="86" r="5" fill="#81C8BE"/>
+  <text x="772" y="118" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#81C8BE">$ fastfetch --off</text>
+  <text y="146" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#DEE1F9"><tspan x="772">OS</tspan><tspan x="852">NixOS · Hyprland</tspan></text>
+  <text y="172" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#DEE1F9"><tspan x="772">Shell</tspan><tspan x="852">zsh</tspan></text>
+  <text y="198" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#DEE1F9"><tspan x="772">Editor</tspan><tspan x="852">neovim</tspan></text>
+  <text y="224" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#DEE1F9"><tspan x="772">Stack</tspan><tspan x="852">Lua · TypeScript</tspan></text>
+  <text y="250" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#DEE1F9"><tspan x="772">Learn</tspan><tspan x="852">Python</tspan></text>
+</svg>
