@@ -36,7 +36,6 @@
 | :-- | :-- |
 | **[exteraless-desktop](https://github.com/Nezerkill/exteraless-desktop)** | Форк Telegram Desktop для Linux |
 | **[opencode-usage](https://github.com/Nezerkill/opencode-usage)** | Лимиты OpenCode Go и таймеры сброса в TUI |
-| **[dotfiles](https://github.com/Nezerkill/dotfiles)** | Конфигурация Hyprland на Lua |
 | **[honor-earbuds](https://github.com/Nezerkill/honor-earbuds)** | Плагин Noctalia V5 для наушников Honor Choice |
 | **[nezer](https://github.com/Nezerkill/nezer)** | Личная bio-страница |
 
